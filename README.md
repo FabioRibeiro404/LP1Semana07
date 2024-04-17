@@ -13,7 +13,7 @@ Weapon <|-- Gun
 Weapon <|-- Sword
 
 class Program{
-      
+      -Main()$ void
 }
 
 class Character{
@@ -39,7 +39,7 @@ class Enemy{
       +Enemy(string)
 }
 class Player{
-      Player(string)
+      +Player(string)
 }
 
 
