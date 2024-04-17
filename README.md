@@ -17,13 +17,18 @@ class Program{
 }
 
 class Character{
-  +Name: string
-  #Weapon: weapons
-  +Fight() void
+      +Name: string
+      #Weapon: weapons
+      +Fight() void
 }
 class Weapon{
-#power: float
-+Weapon(float)
+      #power: float
+      +Weapon(float)
+}
+class Gun{
+      +Ammo(int) int
+      +Gun(float, ammo)
+      +FireGun() void
 }
 
 
