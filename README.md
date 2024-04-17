@@ -2,14 +2,15 @@ UML Diagram for MiniGame:
 ```mermaid
 
 classDiagram
-Character <-- Program
-Weapon <-- Character
 
-Enemy <|-- Character
-Player <|-- Character
+Program <-- Character
+Character <-- Weapon
 
-Gun <|-- Weapon
-Sword <|-- Weapon
+Character <|-- Enemy
+Character <|-- Player
+
+Weapon <|-- Gun
+Weapon <|-- Sword
 
 
 
