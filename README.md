@@ -19,8 +19,11 @@ class Program{
 class Character{
   +Name: string
   #Weapon: weapons
-  +fight(): void
-
+  +Fight() void
+}
+class Weapon{
+#power: float
++Weapon(float)
 }
 
 
