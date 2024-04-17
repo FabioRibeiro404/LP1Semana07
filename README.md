@@ -35,6 +35,12 @@ class Sword{
       +Sword(float, float)
       +AttackWithSword() void
 }
+class Enemy{
+      +Enemy(string)
+}
+class Player{
+      Player(string)
+}
 
 
 ```
