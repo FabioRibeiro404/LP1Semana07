@@ -30,6 +30,11 @@ class Gun{
       +Gun(float, ammo)
       +FireGun() void
 }
+class Sword{
+      +BladeLegth(float) float
+      +Sword(float, float)
+      +AttackWithSword() void
+}
 
 
 ```
